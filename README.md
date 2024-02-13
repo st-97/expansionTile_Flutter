@@ -6,14 +6,26 @@ It is implemented as a stateful widget with a mutable _isExpanded variable to tr
 **Usage:**
 You can use this custom expansion tile in your Flutter app by providing a title, a list of children (content to be displayed when expanded), and an optional list of trailingGridView (icons displayed on the right side).
 
-CustomExpansionTile(
-        trailingGridView: [
-          //widget list here
-          //you can add one or more trailing item it will adjust height auto, also enables to use gridview as a trailing widget
-        ],
-        title: Text('Hello'),
-        children: [//Children for expanded view]);
 
+
+
+        CustomExpansionTile(
+
+        trailingGridView: [
+        
+          //widget list here
+          
+          //you can add one or more trailing item it will adjust height auto, also enables to use gridview as a trailing widget
+          
+        ],
+        
+        title: Text('Hello'),
+        
+        children: 
+        [//Children for expanded view]
+        );
+
+        
         
 **Functionality:**
 
